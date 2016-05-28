@@ -1,0 +1,21 @@
+{
+  "name": "sails-themed-application",
+  "description": "Sails Themed Application",
+  "main": "app.js",
+  "authors": [
+    "lobo"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
