@@ -1,3 +1,5 @@
-# sails-theme-article
+# How to Theme a [Sails Framework] Application
 
-a [Sails](http://sailsjs.org) application
+This is the support repository for an article I'm writing about the subject
+
+[Sails Framework]: http://sailsjs.org
