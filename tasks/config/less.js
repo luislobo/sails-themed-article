@@ -13,7 +13,7 @@
  *   https://github.com/gruntjs/grunt-contrib-less
  *
  */
-module.exports = function(grunt) {
+module.exports = function (grunt) {
 
   grunt.config.set('less', {
     dev: {
@@ -22,6 +22,12 @@ module.exports = function(grunt) {
         cwd: 'assets/styles/',
         src: ['importer.less'],
         dest: '.tmp/public/styles/',
+        ext: '.css'
+      }, {
+        expand: true,
+        cwd: 'assets/themes/export',
+        src: ['*.less'],
+        dest: '.tmp/public/themes/',
         ext: '.css'
       }]
     }
